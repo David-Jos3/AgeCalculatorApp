@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <title> Age calculator app</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="conteudo">
+            <div class="area-set-values">
+                <label for="input-day">Day
+                    <input type="text" name="input-day" id="input-day" placeholder="DD" maxlength="2">
+                    <span class="alert-erro-empty-field">this field is required</span>
+                    <span class="alert-erro-date">Must be a valid day</span>
+                </label>
+
+                <label for="input-month"> Month
+                    <input type="text" name="input-month" id="input-month" placeholder="MM" maxlength="2">
+                    <span class="alert-erro-empty-field">this field is required</span>
+                    <span class="alert-erro-date">Must be a valid Month</span>
+
+                </label>
+
+                <label for="input-years">Years
+                    <input type="text" name="input-years" id="input-years" placeholder="YYYY" maxlength="4">
+                    <span class="alert-erro-empty-field">this field is required</span>
+                    <span class="alert-erro-date">Must be a valid Years</span>
+
+                </label>
+            </div>
+            <div class="submit">
+                <img src="assets/images/icon-arrow.svg" alt="img-svg">
+            </div>
+
+            <div class="area-viewer-date">
+                <p class="name-values"><span class="date-value" id="date-value-years">--</span>Years</p>
+                <p class="name-values"><span class="date-value" id="date-value-months">--</span>Months</p>
+                <p class="name-values"><span class="date-value" id="date-value-days">--</span>Days</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
