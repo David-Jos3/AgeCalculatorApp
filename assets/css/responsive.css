@@ -1,0 +1,80 @@
+@media screen and (max-width: 768px) {
+
+    .main {
+        overflow: hidden;
+    }
+
+    .conteudo {
+        width: 330px;
+        height: 363px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .name-values {
+        font-size: 2.6rem;
+    }
+
+    .area-set-values {
+        width: 90%;
+        display: flex;
+        padding-bottom: 2.4rem;
+        margin: 1rem 0rem 0rem 0rem;
+        justify-content: space-evenly;
+    }
+
+    .submit {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .conteudo {
+        width: 290px;
+        height: 355px;
+    }
+
+    .area-set-values input {
+
+        margin-right: 0rem;
+        width: 3.5rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        padding-left: 9px;
+
+    }
+
+    .area-set-values {
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .area-viewer-date {
+        width: 95%;
+        display: block;
+        margin: 1rem 0rem 0rem 2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .conteudo {
+        width: 255px;
+        height: 355px;
+    }
+
+    .name-values {
+        font-size: 2.3rem;
+    }
+
+
+    .area-viewer-date {
+        width: 95%;
+        display: block;
+        margin: 1rem 0rem 0rem 2rem;
+    }
+}
